@@ -16,7 +16,8 @@ The application should serve two different profiles: admins and end users.
  - /user
     - Access the list of recipe titles
     - Ability to choose a specific recipe and access all the details.
-    - Responsive
+    - Responsive.
+
     ![user page](images/mockup/user-page.PNG)
 
  - /admin
@@ -25,5 +26,6 @@ The application should serve two different profiles: admins and end users.
     - Support recipe creation
     - Control the maximum amoutn of ingredients, steps, and recipes supported.
     - Responsive.
+    
     ![admin page](images/mockup/admin-page.PNG)
 
