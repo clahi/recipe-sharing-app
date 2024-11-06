@@ -44,7 +44,9 @@ We need to the following in terms of non-functional requirements:
 In our application, we are dealing with recipes, and there are several ways to store them. We do not
 expect to run any complex queries over our data, and instead, we want to implement simple
 operations to do the following:
-    - List the recipes: Present a list of the recipes created.
-    - Delete a recipe: If an admin no longer wants a specific recipe to be part of the portfolio, it should be possible to delete the item.
-    - Create a recipe: Create a new recipe to share with the users
+ - List the recipes: Present a list of the recipes created.
+ - Delete a recipe: If an admin no longer wants a specific recipe to be part of the portfolio, it should be possible to delete the item
+ - Create a recipe: Create a new recipe to share with the users.
+
+
 
