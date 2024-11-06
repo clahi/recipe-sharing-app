@@ -57,4 +57,23 @@ The structure of the recipe document will be:
         "Steps": [...]
  }
 
+# Architecture
+The figure below is an abstract diagram referencing the main layers that compose the full archtecture of our application.
+![Abstract architecture](images/mockup/abstract-archtecture.PNG)
+
+End users interact with the presentation layer to get the frontend application, and perform requests to
+the compute layer, but never access the data layer directly. Instead, the compute layer is responsible
+for performing the data operations through an API.
+
+## API design
+Designing your API is crucial to ensure you use the right model to perform all the data operations
+you will need, and both data and functional requirements should be taken into consideration.
+![Api desgin](images/mockup/api-design.PNG)
+
+Here's the breakdown:
+ - GET /recipes: This gets the list of recipes
+ - GET /health: This is a simple health check endpoint.
+ - DELETE /recipes/{recipe_id}: This deletes a specific recipe with a defined ID.
+ - POST /recipes: This creates a new recipe record
+
 
