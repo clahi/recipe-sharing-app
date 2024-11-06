@@ -48,5 +48,13 @@ operations to do the following:
  - Delete a recipe: If an admin no longer wants a specific recipe to be part of the portfolio, it should be possible to delete the item
  - Create a recipe: Create a new recipe to share with the users.
 
+The structure of the recipe document will be:
+**recipe_example.json:
+    {
+        "ID": "GUID",
+        "Title": "recipe title",
+        "Ingredients": [...],
+        "Steps": [...]
+    }
 
 
