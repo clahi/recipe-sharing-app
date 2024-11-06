@@ -76,4 +76,9 @@ Here's the breakdown:
  - DELETE /recipes/{recipe_id}: This deletes a specific recipe with a defined ID.
  - POST /recipes: This creates a new recipe record
 
+## Complete Architecture
+For the frontend, we will use Amazon S3 and Amazon CloudFront to serve the application. The compute layer is implemented in Amazon EC2, and that's where we plan to deploy our API. For the data layer, we will use Amazon DynamoDB as our data store. For simplicity, we will group both the compute and data layers in a single layer called backend.
+The complete archtecture should look like: 
+![Complete archtecture](images/mockup/complete-archtecture.PNG)
+
 
