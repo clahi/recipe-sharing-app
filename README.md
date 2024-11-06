@@ -50,11 +50,11 @@ operations to do the following:
 
 The structure of the recipe document will be:
 **recipe_example.json:**
-    {
+ {
         "ID": "GUID",
         "Title": "recipe title",
         "Ingredients": [...],
         "Steps": [...]
-    }
+ }
 
 
